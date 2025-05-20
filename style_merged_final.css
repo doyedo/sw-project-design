@@ -165,7 +165,6 @@ body, html {
   font-weight: bold;
 }
 
-
 .ranking-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2x2 고정 배열 */
