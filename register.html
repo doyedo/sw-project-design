@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<title>회원가입</title>
+<link href="style_merged_final.css" rel="stylesheet"/>
+<script>
+    function handleRegister(event) {
+      event.preventDefault();
+      alert("가입이 완료되었습니다!");
+      window.location.href = "login.html";
+    }
+  </script>
+</head>
+<body>
+<div class="center-wrapper">
+<div class="center-box">
+<h1>👤 회원가입</h1>
+<form class="form-box" onsubmit="handleRegister(event)">
+<label>아이디</label>
+<input placeholder="아이디 입력" required="" type="text"/>
+<label>비밀번호</label>
+<input placeholder="비밀번호 입력" required="" type="password"/>
+<label>닉네임</label>
+<input placeholder="닉네임 입력" required="" type="text"/>
+<button class="start-btn" type="submit">가입하기</button>
+</form>
+</div>
+</div>
+</body>
+</html>
