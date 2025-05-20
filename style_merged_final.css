@@ -65,12 +65,12 @@ body, html {
   display: inline-block;
 }
 
-/* 폼 */
 .form-box {
   display: flex;
   flex-direction: column;
+  align-items: center;  /* 버튼을 수평 중앙 정렬 */
   gap: 12px;
-  text-align: left;
+  text-align: center;   /* 텍스트 정렬도 가운데로 */
 }
 
 .form-box label {
